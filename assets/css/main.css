@@ -94,17 +94,19 @@ input, select, textarea {
 	
 	/* Modal Content */
 	.modal-content {
+		display:block;
+		margin:0 auto;
 		position: fixed;
 		background-color: #fefefe;
-		top: 5%;
+		top: 7%;
 		left: 5%;
 		right: 5%;
+		bottom: 7%;
 		width: auto;
-		margin: 0;
-		max-width:calc(100% - 80px);
+		max-width:calc(80vh);
 		max-height:calc(100% - 80px);
 		overflow:auto;
- 		max-height:calc(100vh - 125px)
+		
 
 	}
 	
@@ -136,7 +138,7 @@ input, select, textarea {
 	
 	.modal-header {
 		padding: 2px 16px;
-		background-color: #5cb85c;
+		background-color: #0066ff;
 		color: white;
 	}
 	
@@ -144,7 +146,7 @@ input, select, textarea {
 	
 	.modal-footer {
 		padding: 2px 16px;
-		background-color: #5cb85c;
+		background-color: #0066ff;
 		color: white;
 	}
 
