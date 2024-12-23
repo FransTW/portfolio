@@ -94,17 +94,18 @@ input, select, textarea {
 	
 	/* Modal Content */
 	.modal-content {
-		position: relative;
+		position: fixed;
 		background-color: #fefefe;
-		margin: auto;
-		padding: 10px;
-		border: 1px solid #888;
-		width: 80%;
-		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-		-webkit-animation-name: animatetop;
-		-webkit-animation-duration: 0.4s;
-		animation-name: animatetop;
-		animation-duration: 0.4s
+		top: 5%;
+		left: 5%;
+		right: 5%;
+		width: auto;
+		margin: 0;
+		max-width:calc(100% - 80px);
+		max-height:calc(100% - 80px);
+		overflow:auto;
+ 		max-height:calc(100vh - 125px)
+
 	}
 	
 	/* Add Animation */
