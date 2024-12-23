@@ -136,11 +136,11 @@
 
 									<div class="features">
 										<article>
-											<a class="image"><img src="images/Afbeelding5.jpg" alt="" /></a>
+											<img class="image" src="images/Afbeelding5.jpg" alt="" />
 											<div class="inner">
 												<h4>Design Sketching</h4>
 												<p>Classes on Design Sketching, Ideation and the general creative aproach taken during a design process.</p>
-												<a class="button" href="#modal1">Read more</a>
+												<a class="modal-button" href="#myModal1">Read more</a>
 											</div>
 										</article>
 										<article>
@@ -148,7 +148,7 @@
 											<div class="inner">
 												<h4>Consumer Products</h4>
 												<p>Project commissioned by <a href="https://freshnrebel.com/nl">Fresh 'n Rebel</a> Focussing on inderdiciplinary teamwork.</p>
-												<a class="button" href="#modal2">Read more</a>
+												<a class="modal-button" href="#myModal2">Read more</a>
 											</div>
 										</article>
 										<article>
@@ -224,25 +224,45 @@
 									</div>
 								</div>
 
+								<!-- modals -->
 
-								<div class="popup" id="modal1">
-									<a class="popup__overlay" href="#portfolio"></a>
-									<div class="popup__wrapper">
-										<a class="popup__close" href="#portfolio">Close</a>
-										<p>POPUP 1 : CONTENT HERE</p>
-										<a class="image left"><img src="images/Afbeelding3.jpg" alt="" /></a>
-										<a class="image left"><img src="images/Afbeelding4.jpg" alt="" /></a>
-									</div>
-								</div>
+								<div id="myModal1" class="modal">
 
-								<div class="popup" id="modal2">
-									<a class="popup__overlay" href="#portfolio"></a>
-									<div class="popup__wrapper">
-										<a class="popup__close" href="#portfolio">Close</a>
-										<p>POPUP 2 : CONTENT HERE</p>
+									<!-- Modal content -->
+									<div class="modal-content">
+									  <div class="modal-body">
+										<span class="close">×</span>
+										<h3>Design Sketching</h3>
+										<a class="image right"><img src="images/Afbeelding3.jpg" alt="" /></a>
+										<div class="inner">
+											<p>Here you can see some examples of some design sketching I did. From top to bottom you can see: a facelift of a standard car interior, a banner of a design process for a toy and a drawing of a console controller. During design sketching I learned many important skills as a designer, such as:
+											</p>
+											<ul>
+												<li>Ideation</li>
+												<li>Itteration</li>
+												<li>Material representation</li>
+												<li>Story boarding</li>
+											</ul>
+										</div>
+										<a class="image"><img src="images/Afbeelding4.jpg" alt="" /></a>
+									  </div>
 									</div>
-								</div>
 								  
+								</div>
+								
+								<div id="myModal2" class="modal">
+
+									<!-- Modal content -->
+									<div class="modal-content">
+									  <div class="modal-body">
+										<span class="close">×</span>
+										<p>modal2</p>
+										<p>Some other text...</p>
+									  </div>
+									</div>
+								  
+								</div>
+							
 
 							</section>
 
@@ -612,5 +632,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/model.js"></script>
 	</body>
 </html>
