@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Read Only by HTML5 UP</title>
+		<title>Thijs Warnars</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -135,11 +135,12 @@
 									<h3>Portfolio</h3>
 
 									<div class="features">
-										<article id="myBtn">
+										<article>
 											<a class="image"><img src="images/Afbeelding5.jpg" alt="" /></a>
 											<div class="inner">
 												<h4>Design Sketching</h4>
 												<p>Classes on Design Sketching, Ideation and the general creative aproach taken during a design process.</p>
+												<a class="button" href="#modal1">Read more</a>
 											</div>
 										</article>
 										<article>
@@ -147,6 +148,7 @@
 											<div class="inner">
 												<h4>Consumer Products</h4>
 												<p>Project commissioned by <a href="https://freshnrebel.com/nl">Fresh 'n Rebel</a> Focussing on inderdiciplinary teamwork.</p>
+												<a class="button" href="#modal2">Read more</a>
 											</div>
 										</article>
 										<article>
@@ -222,15 +224,25 @@
 									</div>
 								</div>
 
-								<div id="myModal" class="modal">
 
-									<!-- Modal content -->
-									<div class="modal-content">
-									  <span class="close">&times;</span>
-									  <p>Some text in the Modal..</p>
+								<div class="popup" id="modal1">
+									<a class="popup__overlay" href="#portfolio"></a>
+									<div class="popup__wrapper">
+										<a class="popup__close" href="#portfolio">Close</a>
+										<p>POPUP 1 : CONTENT HERE</p>
+										<a class="image left"><img src="images/Afbeelding3.jpg" alt="" /></a>
+										<a class="image left"><img src="images/Afbeelding4.jpg" alt="" /></a>
 									</div>
-								  
 								</div>
+
+								<div class="popup" id="modal2">
+									<a class="popup__overlay" href="#portfolio"></a>
+									<div class="popup__wrapper">
+										<a class="popup__close" href="#portfolio">Close</a>
+										<p>POPUP 2 : CONTENT HERE</p>
+									</div>
+								</div>
+								  
 
 							</section>
 
@@ -600,7 +612,5 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script src="assets/js/Popup.js"></script>
-
 	</body>
 </html>
