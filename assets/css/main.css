@@ -103,7 +103,7 @@ input, select, textarea {
 		right: 5%;
 		bottom: 7%;
 		width: auto;
-		max-width:calc(80vh);
+		max-width:calc(100vh);
 		max-height:calc(100% - 80px);
 		overflow:auto;
 		
